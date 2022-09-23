@@ -1,9 +1,7 @@
-import sys
 from PIL import Image
 import pytesseract
 import os
 from pdf2image import convert_from_path
-import re
 
 
 files = os.listdir()
